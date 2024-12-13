@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../NEXCENT"
+		},
+		{
+			"path": "../Webdev 1111"
+		},
+		{
+			"path": "../great julius"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Elegant"
+	}
+}

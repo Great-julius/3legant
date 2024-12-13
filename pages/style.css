@@ -1,0 +1,454 @@
+/* RESET CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* HEADER STYLING */
+header .banner-container {
+  background-color: rgb(235, 233, 233);
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 80px;
+}
+header .banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgb(12, 7, 7);
+  font-size: 14px;
+  width: 800px;
+}
+
+header .banner span a {
+  color: rgb(19, 2, 255);
+  border-bottom: solid 1px;
+}
+
+.tic{
+  color: black;
+}
+.days{
+  color: rgb(161, 156, 156);
+}
+header .banner select {
+  color: rgb(73, 12, 241);
+  background-color: black;
+  border: none;
+  outline: none;
+}
+
+header .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 80px;
+  height: 70px;
+  border-bottom: 1px solid #ccc;
+}
+
+header .nav-links {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+header .nav-link {
+  font-weight: 100;
+}
+
+header a {
+  color: black;
+  text-decoration: none;
+}
+
+header .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+header .search-cart {
+  display: flex;
+  align-items: center;
+  gap: 20px;;
+}
+
+header .search-bar > button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;;
+}
+
+.top{ color: blue ;
+top: 20px;
+right: 135px;
+position: relative;
+}
+
+.first-sect >.fa-arrow-right-long {width: 100%;
+  position:relative;
+  
+  border-color:white;
+
+  
+  color: black;}
+
+
+
+
+.first-sect{
+position:relative;
+  width: 100%;
+}
+
+.uniq{
+  display: flex;
+  justify-content:space-evenly;
+  width: 100%;
+}
+
+.second-sect{
+  width: 1440px;;
+  border: 1px solid pink;
+  grid-template-rows:auto auto;
+  grid-template-columns:548px 548px;
+  display: grid;
+  grid-template-areas:
+  "living bed"
+"living kitchen";
+ gap: 15px;
+}
+
+.liv{
+  position: relative;
+width: 548px; 
+height: 664px;
+  display: flex;
+  justify-content: center;
+  grid-area: living;
+}
+
+.bor{
+  position: relative;
+  top: 155px;
+}
+
+
+
+.bedr{
+  width: 548px; 
+height: 319px;
+  display: flex;
+  justify-content: center;
+  grid-area: bed;
+}
+
+.kit{
+display: flex;
+width: 548px; 
+height: 319px;
+justify-content: center;
+  grid-area: kitchen;
+}
+.lh4{position: relative;
+top: 80px;
+left: 168px;
+width: 420px;
+
+}
+
+.lh4 a{
+ position: relative;
+  
+}
+
+.sasa{ width: 75px;
+  display: flex;
+  color: black;
+  border-bottom: solid 1px;
+  
+}
+
+.fa-arrow-right-long{
+  width: 150px;
+  position: relative;
+  bottom: 19px;
+  left: 35px;
+}
+.second-sect >.fa-arrow-left-long {
+  color: black;
+  right: 82px;
+}
+
+.new{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.third{
+  
+  display: flex;
+  
+}
+
+
+.btn{
+  color: azure;
+  position: relative;
+  left: 15px;
+  bottom: 55px;
+  text-align: center;
+  background-color: black;
+  width: 200px;
+  height: 40px;
+  border-radius: 8px;
+}
+
+.hom{
+  display: flex;
+  justify-content:space-evenly;
+  text-align: center;
+}
+
+.hohoho{
+  width: 1350;
+  padding: 25PX;
+}
+
+.patapa{
+  
+    width: 90%;
+    margin: 0 auto;
+  
+overflow: scroll;
+}
+
+
+.pan{
+color: #6C7275; 
+ text-decoration:dashed ;
+}
+
+.pict{
+  display: flex;
+  justify-content: space-evenly;
+}
+.sale{
+  background-color: aliceblue;
+}
+
+.didy{display: flex;
+justify-content: space-between;}
+
+
+.smg{
+  display: flex;
+  justify-content: center;
+}
+
+.hihihi{
+  width: 200px;
+  position: relative;
+  bottom: 40px;
+}
+
+.BAD{
+display: flex;
+justify-content: space-between;
+position: relative;
+left: 30px;
+top: 30px;
+height: 5px;
+width: 200px;
+}
+
+
+.ppp{
+  background-color: white;
+  width: 65px;
+  border-radius: 5px;
+  
+}
+
+.ppop{
+  width: 70px;
+  background-color: #38CB89;
+  border-radius: 5px;
+}
+
+
+
+.fifth-sect{
+  
+  text-align: center;
+  width: 100%;
+
+}
+
+.hund{
+  display: flex;
+  justify-content: center;
+
+}
+
+.sale{
+  color: rgb(51, 51, 252);
+}
+.hundred{
+  text-align: center;
+  align-items: center;
+  width: 50%;
+background-color: #edeff0;
+
+}
+
+
+.smg{
+  display: flex;
+  justify-content: space-evenly;
+  color: black;
+}
+
+.red{
+  color: black;
+}
+
+.dodo{
+  color: black;
+  position: relative;
+  left: 52px;
+  bottom: 4px;
+  
+}
+
+
+.pp{
+  position: relative;
+  left: 300px;
+}
+
+
+.background{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1440px;
+  background: url(../assets/Newfolder/ImagePlaceholder.png);
+  height: 360px;
+  }
+
+
+.join{
+  
+  text-align: center;
+  align-items: center;
+}
+
+.input{
+  width: 540px;
+  border: none;
+  background-color: #f5f3f3;
+  
+}
+
+.otutu{
+  border-bottom: 1px solid rgb(116, 114, 114);
+}
+
+.ban{
+  padding: 50px;
+  padding-left: 150px;
+  align-items: center;
+  background-color: black;
+height: 249px;
+color: white;
+width: 1440px;
+}
+
+.footc{
+
+  color: white;
+}
+
+.logo{
+  color: #ccc;
+  border-right: 1px solid white ;
+  width: 105px;
+  height: 24px ;
+}
+
+.decor{
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+  width: 544px;
+}
+
+
+.nom{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom:1px solid white ;
+
+}
+
+
+.hug{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+height: 56px;
+width: 1118px;
+}
+
+
+
+.aca{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 25%;
+}
+
+
+.badge{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  width: 120px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

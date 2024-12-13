@@ -1,0 +1,56 @@
+/*RESET CSS*/
+
+body {
+    font-family: "Poppins", sans-serif;
+  }
+
+.sign{
+    color: rgb(6, 247, 6);
+    text-decoration: none;
+}
+.sasect{
+    display: flex;
+    justify-content: center;
+}
+.img{
+    width: 50%;
+    height: 1080px;
+}
+
+.first{
+    width: 50%;
+    height: 1080px;
+    
+}
+.btn{
+    background-color: black;
+    color: white;
+    width: 456px;
+    height: 48px;
+    border-radius: 8px;
+}
+.input{
+    border: none;
+}
+.sada{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(202, 199, 199);
+    width: 456px;
+    height: 40px;
+}
+
+
+.dodo{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    
+}
+
+.tex{
+    
+    display: flex;
+    
+    color: rgb(141, 140, 140);
+}

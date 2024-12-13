@@ -1,0 +1,45 @@
+.slider-container{
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid red;
+overflow: hidden;
+}
+
+
+
+.slider{
+    display: flex;
+}
+
+
+.product-card{
+    width: 300px;
+    margin: 10px;
+    border: 1px solid black;
+    padding: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    flex-shrink:0;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.background{
+background: url(./Newfolder/ImagePlaceholder.png);
+height: 360px;
+}
+
+
+.countdown{
+    display: flex;
+    gap: 20px;
+}
+
+#days{
+    border: 1px;
+}
+
